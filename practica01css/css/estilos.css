@@ -1,37 +1,75 @@
 body {
     border: 1px solid red;
+    font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
+    
 }
 header {
-    background: #c9dfea;
+    background: #cadfea;
 }
 header nav {
-    background: #016fc3;
+    background: #006fc3;
     border-radius: 5px;
+    margin: 2px auto;
     padding: 2px 0px;
-    margin: 0px auto;
     width: 99%;
+
 }
 header nav form {
-   float: right;
-   margin-right: 20px;
-   margin-top: -40px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
 }
 header nav form input {
     border-radius: 5px;
 }
 header nav form input[type="button"] {
-    background: green;
-    border: 1px solid green;
+    background:#69bc58;
+    border: 1px solid #69bc58;
     color: white;
+
 }
 header nav ul li {
     /* border: 1px solid blue; */
     color: white;
+    margin: 0px auto;
     display: inline-block;
     margin-right: 20px;
 }
 #logo {
     margin-top: -150px;
+}
+#seccion01 {
+    margin-top: 15px;
+}
+#seccion01 article{
+    text-align: center;
+}
+#seccion01 article img {
+    border: 5px solid rgba(150,150,150,0.5);
+    width: 98%;
+}
+#seccion02 article {
+    display: inline-block;
+    vertical-align: top;
+    width: 32.8%;
+    
+}
+#seccion02 article input[type="submit"] {
+    background: white;
+    border-radius: 5px;
+    color:blue;
+    margin-left: 130px;
+    padding: 6px;
+    
+}
+.nito {
+    font-weight: bold;
+}
+.otraSeccion {
+    font-size: 2.5em;
+}
+.unaSeccion {
+    font-size: 4.5em;
 }
