@@ -1,0 +1,86 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1024px;
+}
+input[type="button"]{
+    background: transparent;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#sec01 article{
+    display: inline-block;
+    text-align: center;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+#sec01{
+    background: #606060;
+}
+#sec01art01{
+    background: white;
+    width: 60%;
+}
+#sec01art01anidado{
+    width: 55%;
+}
+#sec01art01anidado img{
+    width: 55%;
+}
+#sec01art02anidado{
+    min-height: 100%;
+    width: 45%;
+}
+#sec01art02{
+    color: white;
+    text-align: center;
+    width: 40%;
+}
+#sec02 article{
+    display: inline-block;
+    height: 120px;
+    text-align: center;
+    margin-right: -4px; 
+    margin-top: -4px;
+    vertical-align: top;
+}
+#sec02art01{
+    color: white;
+    background: #54aded;
+    font-size: 1.2em;
+    padding: 20px 20px 20px 10%;
+    width: 35%;
+}
+#sec02art01 img{
+    position: relative;
+    left: -50px;
+    width: 10%;
+}
+#sec02art02{
+    background: #d1dccf;
+    padding: 20px;
+    width: 20%;
+}
+#sec02art03{
+    color: white;
+    background: #787777;
+    padding: 20px;
+    width: 25%;
+}
+.btnBordeNegro{
+    border: 1px solid black;
+}
+.btnBordeBlanco{
+    color: white;
+    border: 1px solid white;
+}
+.letraCursiva{
+    font-style: italic;
+}
+.grande{
+    font-size: 1.8em;
+}
+.nito{
+    font-weight: bold;
+}
